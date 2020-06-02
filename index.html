@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/JQuery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Pizza Parlor</title>
+  </head>
+  <body>
+    <div class="jumbotron">
+        <h2>Michelaangelo's Pizza</h2>
+        <button type="button" id="reload" class="btn btn-danger">Start Over</button>
+    </div>
+    <div class ="container">
+        <div class ="row">
+
+            <!-- Radio button form for size -->
+            <div class="col-md-4">
+                <form id="size">
+                    <h4>Select Your Size:</h4>
+                    <div class="radio">
+                    <label>
+                        <input type="radio" name="size" value="small"> $8 - Small</label>
+                        </label>
+                    </div>
+                    <div class="radio">
+                    <label>
+                        <input type="radio" name="size" value="medium"> $10 - Medium</label>
+                    </label>
+                    </div>
+                    <div class="radio">
+                    <label>
+                        <input type="radio" name="size" value="large"> $12 -   Large</label>
+                    </label>
+                    </div>
+                    <button id="submit" class="btn btn-primary">Submit Your Order</button>
+                </form>
+            </div>
+
+            <div class="col-md-4" id="output">
+            <h3> Thank you for your order!</h3>
+            <p>For your order of one <span class="outputSize"></span> pizza, the total comes to $<span class="outputTotal"></span>.</p>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
