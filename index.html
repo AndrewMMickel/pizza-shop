@@ -34,10 +34,26 @@
                         <input type="radio" name="size" value="large"> $12 -   Large</label>
                     </label>
                     </div>
-                    <button id="submit" class="btn btn-primary">Submit Your Order</button>
                 </form>
             </div>
 
+            <!-- Checkbox form for toppings -->
+            <div class="col-md-4">
+            <form id="toppings">
+                <h4>Choose Your Toppings:</h4>
+                <h6>$2 Each:</h6>
+                <input type="checkbox" name="topping" value ="mushroom"> Mushroom<br>
+                <input type="checkbox" name="topping" value ="olive"> Olive<br>
+                <input type="checkbox" name="topping" value ="pepper"> Pepper<br>
+                <input type="checkbox" name="topping" value ="onion"> Onion<br>
+                <input type="checkbox" name="topping" value ="pepperoni"> Pepperoni<br>
+                <input type="checkbox" name="topping" value ="sausage"> Sausage<br>
+                <input type="checkbox" name="topping" value ="cheese"> Extra Cheese<br>
+                <br>
+                <br>
+                <button id="submit" class="btn btn-primary">Submit Your Order</button>
+            </form>
+        </div>
             <div class="col-md-4" id="output">
             <h3> Thank you for your order!</h3>
             <p>For your order of one <span class="outputSize"></span> pizza, the total comes to $<span class="outputTotal"></span>.</p>
