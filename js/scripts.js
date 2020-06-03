@@ -16,6 +16,19 @@ Pizza.prototype.pizzaPrice = function(size) {
   }
 }
 
+Pizza.prototype.pizzaToppings = function() {
+  var toppings = [0]
+  $("input[name='topping']:checked").each(function() {
+    toppings.push($(this).val());
+  });
+  this.toppings = toppings;
+}
+
+Pizza.prototype.toppingsPrice = function() {
+  console.log(this.price);
+  this.price = (this.price + (this.toppings.length * 2) - 2);
+}
+
 // User Interface Logic -------------
 
 $(document).ready(function() {
