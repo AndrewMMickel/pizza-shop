@@ -1,4 +1,9 @@
 // Business Logic -------------
+function Pizza () {
+  this.size = "";
+  this.toppings = [];
+  this.price = 0;
+}
 
 Pizza.prototype.pizzaPrice = function(size) {
   this.size = size;
@@ -14,11 +19,10 @@ Pizza.prototype.pizzaPrice = function(size) {
 // User Interface Logic -------------
 
 $(document).ready(function() {
-  var pizza = new Pizza ();
-  
     $("form#size").change(function(event) {
         event.preventDefault();
         var size = $("input:radio[name=size]:checked").val();
         pizza.pizzaPrice(size);
+        $("#toppings").fadeIn();
     });
 });
