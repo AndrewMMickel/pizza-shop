@@ -23,7 +23,7 @@ _No known bugs. Will update with changes_
 |Spec|Input|Output|
 |----|------|------|
 |The user can select a size of pizza ranging from small to large. There is a price next to each available size. After pressing the submit button, the user will also be given a price in a message|$8 - small|"Your order of one small radical pizza comes to just $8!"|
-|after choosing their size, the user can select from a checkbox list what toppings they would like on the pizza. Each topping adds $2 each to the price of the pizza|$10 - medium + Onion|"Your order of one small radical pizza comes to just $12!"|
+|After choosing their size, the user can select from a checkbox list what toppings they would like on the pizza. Each topping adds $2 each to the price of the pizza|$10 - medium + Onion|"Your order of one small radical pizza comes to just $12!"|
 |A button at the top of the webpage allows the user to reset the page once clicked|Start Over|webpage is reset|
 
 ## Support and contact details
