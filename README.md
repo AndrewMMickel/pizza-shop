@@ -1,12 +1,13 @@
-# _{hello world!}_
+# _Pizza-parlor_
 
-#### _{first webpage}, {2/6/2020}_
+#### _Michelangelo's Pizza, {6/5/2020}_
 
-#### By _**{Andrew Mickel}**_
+#### By _**Andrew Mickel**_
 
 ## Description
 
-_{This page is a creation of mine as I learn to code with HTML}_
+_This is a webpage for a fictional pizza parlor owned by Michelangelo from Teenage Mutant Ninja Turtles. The user can order a pizza with a choice of toppings and size of pizza. After ordering you'll be given a price for said pizza._
+_The main purpose of this webpage is to test prototypes and use a formula within the prototype._
 
 ## Setup/Installation Requirements
 
@@ -18,13 +19,18 @@ _{This page is a creation of mine as I learn to code with HTML}_
 
 _No known bugs. Will update with changes_
 
+## Specs
+|Spec|Input|Output|
+|----|------|------|
+|User can select a size of pizza ranging from small to large. You will be given a price after pressing the submit button|small|Your order of one small radical pizza comes to just $8!|
+
 ## Support and contact details
 
 _email andrew.m.mickel@gmail.com if there are any concerns_
 
 ## Technologies Used
 
-_The most impressive part so far is that all of this work has been done on Windows. There'll be more later_
+_Uses arrays to take a given input and provides a result based on the input. Use of bootstraps and jquery included_
 
 ### License
 
