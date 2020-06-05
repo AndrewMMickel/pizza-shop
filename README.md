@@ -11,7 +11,7 @@ _The main purpose of this webpage is to test prototypes and use a formula within
 
 ## Setup/Installation Requirements
 
-*Download the files from []() and save it in a folder
+*Download the files from [https://github.com/AndrewMMickel/pizza-shop](github.com/AndrewMMickel/pizza-shop) and save it in a folder
 *Be sure you have boostraps downloaded on your computer. You can get the latest version from [https://getbootstrap.com](https://getbootstrap.com/docs/3.4/css/)
 *Also be sure you have JQuery saved to a folder on your computer somewhere. You can download it at [jquery.com](jquery.com/download/)
 
@@ -22,7 +22,9 @@ _No known bugs. Will update with changes_
 ## Specs
 |Spec|Input|Output|
 |----|------|------|
-|User can select a size of pizza ranging from small to large. You will be given a price after pressing the submit button|small|Your order of one small radical pizza comes to just $8!|
+|The user can select a size of pizza ranging from small to large. There is a price next to each available size. After pressing the submit button, the user will also be given a price in a message|$8 - small|"Your order of one small radical pizza comes to just $8!"|
+|after choosing their size, the user can select from a checkbox list what toppings they would like on the pizza. Each topping adds $2 each to the price of the pizza|$10 - medium + Onion|"Your order of one small radical pizza comes to just $12!"|
+|A button at the top of the webpage allows the user to reset the page once clicked|Start Over|webpage is reset|
 
 ## Support and contact details
 
@@ -30,7 +32,9 @@ _email andrew.m.mickel@gmail.com if there are any concerns_
 
 ## Technologies Used
 
-_Uses arrays to take a given input and provides a result based on the input. Use of bootstraps and jquery included_
+_Bootstraps_
+_JQuery_
+_Javascript prototypes and constructors_
 
 ### License
 
