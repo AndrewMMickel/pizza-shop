@@ -18,3 +18,15 @@ h2 {
 #reload {
   text-align: right;
 }
+
+#michelangelo {
+    float:left;
+    height:200px;
+    width:200px;
+}
+
+#pizza {
+    float: right;
+    height:200px;
+    width: 200px;
+}
