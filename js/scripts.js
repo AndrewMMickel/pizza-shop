@@ -58,9 +58,9 @@ $(document).ready(function() {
     });
 
     $("form#size").change(function(event) {
-            event.preventDefault();
-            var size = $("input:radio[name=size]:checked").val();
-            pizza.pizzaPrice(size);
-            $("#toppings").fadeIn();
+        event.preventDefault();
+        var size = $("input:radio[name=size]:checked").val();
+        pizza.pizzaPrice(size);
+        $("#toppings").fadeIn();
         });
 });
